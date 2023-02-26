@@ -632,7 +632,7 @@ const certificateContent = [
     src: "/certificate/min/Coursera-Crash Course Python.png",
     title: "Coursera Google Certification: Crash Course on Python",
     technique:
-      "Version Control System, Branching, Merging, Pull Request, Gitflow",
+      "Python, Data Types, Data Structure, Functions, OOP, File Handling, Unit Testing, Bash Scripting, Python Library, Python Scripting, Command Line Interface",
     firstLink: "https://coursera.org/share/9dfd3ec817e80e7fb62663055e85e620",
     secondLink: "https://www.coursera.org",
     firstButtonText: "CERTIFICATE OF COMPLETION",
@@ -645,6 +645,17 @@ const certificateContent = [
     technique:
       "Python, Operating System, File System, Command Line Interface, Python Scripting, Bash Scripting, Unit Testing, Regular Expression, Python Library",
     firstLink: "https://coursera.org/share/e6b74e07edaac0f67e0846beb83cc82c",
+    secondLink: "https://www.coursera.org",
+    firstButtonText: "CERTIFICATE OF COMPLETION",
+    secondButtonText: "COURSERA WEBSITE",
+  },
+  {
+    src: "/certificate/min/Coursera-Git.png",
+    title:
+      "Coursera Google Certification: Introduction to Git and Github",
+    technique:
+      "Version Control System, Branching, Merging, Rebasing, Pull Request, Gitflow, Code Review, Open Source Contribution",
+    firstLink: "https://coursera.org/share/34789e5af4117bde71bd5a8b0e60bb29",
     secondLink: "https://www.coursera.org",
     firstButtonText: "CERTIFICATE OF COMPLETION",
     secondButtonText: "COURSERA WEBSITE",
