@@ -9,7 +9,7 @@ export default function Home() {
       <section>
         <div className="flex min-h-screen items-center justify-center">
           <div>
-            <h2 className="text-5xl leading-[4rem] text-color-white sm:text-[8rem] sm:leading-[9rem]">
+            <h2 className="text-5xl leading-[4rem] text-color-white md:text-[8rem] md:leading-[9rem]">
               Develop Your{" "}
               <span className="text-color-primary">
                 <Typewriter
