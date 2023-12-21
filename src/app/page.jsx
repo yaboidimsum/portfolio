@@ -81,10 +81,8 @@ export default function Home() {
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="grid-row-2 grid gap-4">
-            <div>
+          <div className="p-32">
               <ToolsCard />
-            </div>
           </div>
         </div>
       </section>
