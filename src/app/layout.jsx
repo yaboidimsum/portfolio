@@ -1,8 +1,9 @@
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { DM_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 const PJS = Plus_Jakarta_Sans({ subsets: ["latin"] });
+const dm_mono = DM_Mono({ subsets: ["latin"], weight: ["300","400","500"] });
 
 export const metadata = {
   title: "Dimas Prihady S.",
@@ -12,8 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-
-      <body className={PJS.className}>
+      <body className={dm_mono.className}>
         <Navbar />
         {children}
       </body>
