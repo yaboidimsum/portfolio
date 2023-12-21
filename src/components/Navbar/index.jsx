@@ -4,7 +4,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full outline outline-1 outline-color-white fixed">
+      <div className="w-full outline outline-1 outline-color-white fixed  ">
         <div className="flex flex-row items-center justify-between gap-8 px-8 py-4 md:px-40 md:py-8">
           <div>
             <Image
