@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ToolsCard = () => {
   return (
-    <div className="grid w-full grid-cols-2 gap-16 md:grid-cols-6">
+    <div className="grid w-full grid-cols-2 gap-16 xl:grid-cols-6 lg:grid-cols-3">
       {/* Map over the skillContent array */}
       {skillContent.map((category, index) => (
         <div key={index} className="flex w-full flex-col gap-8">

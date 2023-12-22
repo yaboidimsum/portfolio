@@ -56,7 +56,7 @@ export default function Home() {
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="flex flex-col-reverse items-center justify-start gap-8 px-8 contrast-less:w-full md:flex-row md:gap-24 md:px-0">
+          <div className="flex flex-col-reverse items-center justify-start gap-8 px-8 contrast-less:w-full xl:flex-row xl:gap-24 md:px-0">
             <div className="flex flex-col gap-2">
               <h2 className="text-md text-color-primary md:text-xl">
                 Get to know me
@@ -84,7 +84,7 @@ export default function Home() {
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="py-32 px-6 md:px-0">
+          <div className="px-6 py-32">
             <ToolsCard />
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function Home() {
             <div className="flex flex-col gap-2 md:flex-row md:gap-4">
               <h2 className="text-color-white">Availability:</h2>
               <Link
-                href={"https://www.instagram.com/dimasprihady/"}
+                href={"mailto:dprihadisetiawan@gmail.com"}
                 target="_blank"
                 className="animate-pulse px-2 text-color-primary hover:animate-none hover:bg-color-primary hover:text-color-secondary"
               >
