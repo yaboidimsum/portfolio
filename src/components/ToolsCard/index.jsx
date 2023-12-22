@@ -3,13 +3,15 @@ import Image from "next/image";
 
 const ToolsCard = () => {
   return (
-    <div className="grid grid-cols-1 gap-16 md:grid-cols-6">
+    <div className="grid w-full grid-cols-2 gap-16 md:grid-cols-6">
       {/* Map over the skillContent array */}
       {skillContent.map((category, index) => (
         <div key={index} className="flex w-full flex-col gap-8">
           {/* Render category title and hr */}
           <div className="flex w-full flex-col gap-2">
-            <h2 className="text-xl text-color-white">{category.title}</h2>
+            <h2 className="text-[0.95rem] text-color-white md:text-xl">
+              {category.title}
+            </h2>
             <hr className="h-[0.5rem] w-full border-0 bg-color-primary" />
           </div>
           {/* Map over links in the category */}
@@ -24,9 +26,11 @@ const ToolsCard = () => {
                   src={link.image}
                   width={100}
                   height={100}
-                  className="w-[4rem]"
+                  className="w-[2.5rem] md:w-[4rem]"
                 />
-                <h2 className="text-lg text-color-white">{link.name}</h2>
+                <h2 className="text-[0.95rem] text-color-white md:text-lg">
+                  {link.name}
+                </h2>
               </div>
             ))}
           </div>

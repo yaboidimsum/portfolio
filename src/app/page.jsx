@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import HomeLogo from "@/components/HomeLogo";
 import Image from "next/image";
 import ToolsCard from "@/components/ToolsCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -57,8 +58,10 @@ export default function Home() {
         <div className="flex min-h-screen flex-col items-center justify-center">
           <div className="flex flex-col-reverse items-center justify-start gap-8 px-8 contrast-less:w-full md:flex-row md:gap-24 md:px-0">
             <div className="flex flex-col gap-2">
-              <h2 className="text-xl text-color-primary">Get to know me</h2>
-              <p className="max-w-2xl text-justify text-color-white">
+              <h2 className="text-md text-color-primary md:text-xl">
+                Get to know me
+              </h2>
+              <p className="max-w-2xl text-justify text-sm text-color-white md:text-base">
                 My name is Awan, an Informatics Engineering Student at Institut
                 Teknologi Sepuluh Nopember. I’m pursuing my career on{" "}
                 <span className="text-color-primary">UI/UX Design</span> and
@@ -74,15 +77,42 @@ export default function Home() {
               src={"/logo/IF_Logo.png"}
               width={100}
               height={100}
-              className="w-[10rem]"
+              className="w-[5rem] md:w-[10rem]"
             />
           </div>
         </div>
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="p-32">
-              <ToolsCard />
+          <div className="py-32 px-6 md:px-0">
+            <ToolsCard />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="flex min-h-screen flex-col items-start justify-center px-8 md:pl-32">
+          <div className="flex flex-col gap-8 text-sm md:text-base">
+            <div className="flex flex-col gap-2 md:flex-row md:gap-4">
+              <h2 className="text-color-white">Availability:</h2>
+              <Link
+                href={"https://www.instagram.com/dimasprihady/"}
+                target="_blank"
+                className="animate-pulse px-2 text-color-primary hover:animate-none hover:bg-color-primary hover:text-color-secondary"
+              >
+                Open for business. Click to contact me
+              </Link>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h2 className="text-color-blue">
+                Institut Teknologi Sepuluh Nopember
+              </h2>
+              <p className="max-w-xl text-justify text-color-white">
+                Teknik Kimia Street - Teknik Informatika Departement Building
+                Campus Institut Teknologi Sepuluh Nopember Surabaya Highway ITS,
+                Sukolilo, Surabaya 60111, Indonesia Surabaya
+              </p>
+            </div>
+            <h2 className="text-color-slate">Copyright ©️ 2023 Awan Website</h2>
           </div>
         </div>
       </section>

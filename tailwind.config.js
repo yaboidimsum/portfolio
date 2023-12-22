@@ -18,7 +18,8 @@ module.exports = {
         primary:"#11FC99",
         secondary:"#14213D",
         slate: "#8D99AE",
-        white: "#EDF6F9"
+        white: "#EDF6F9",
+        blue: "#0085FF",
       }
     }
   },
