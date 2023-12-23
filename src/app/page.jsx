@@ -56,7 +56,7 @@ export default function Home() {
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="flex flex-col-reverse items-center justify-start gap-8 px-8 contrast-less:w-full xl:flex-row xl:gap-24 md:px-0">
+          <div className="flex flex-col-reverse items-center justify-start gap-8 px-8 contrast-less:w-full md:px-0 xl:flex-row xl:gap-24">
             <div className="flex flex-col gap-2">
               <h2 className="text-md text-color-primary md:text-xl">
                 Get to know me

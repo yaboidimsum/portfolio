@@ -95,4 +95,41 @@ const skillContent = [
   },
 ];
 
-export default skillContent;
+const portfolioContent = [
+  {
+    src: "/",
+    title: "ITS EXPO 2023",
+    technique: "UI/UX Design, Website Design, Design System",
+  },
+  {
+    src: "/",
+    title: "UKM EXPO 2023",
+    technique: "UI/UX Design, Website Design, Design System",
+  },
+  {
+    src: "/",
+    title: "Schematics 2023",
+    technique: "UI/UX Design, Website Design, Design System",
+  },
+  {
+    src: "/",
+    title: "3D Model: Modern House",
+    technique:
+      "Blender, Modelling, Material, Lighting, Rendering, Compositing, Particle System",
+  },
+  {
+    src: "/",
+    title: "Hoobank Landing Page",
+    technique: "Website Design, Vite, TailwindCSS, React JS, Figma",
+  },
+  {
+    src: "/",
+    title: "Nike Store Landing Page",
+    technique: "Website Design, Vite, TailwindCSS, React JS, Figma",
+  },
+];
+
+export default {
+  skillContent,
+  portfolioContent,
+};
