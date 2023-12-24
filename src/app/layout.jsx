@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 const PJS = Plus_Jakarta_Sans({ subsets: ["latin"] });
-const dm_mono = DM_Mono({ subsets: ["latin"], weight: ["300","400","500"] });
+const dm_mono = DM_Mono({ subsets: ["latin"], weight: ["300", "400", "500"] });
 
 export const metadata = {
   title: "Dimas Prihady S.",
@@ -12,7 +12,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
+    <html
+      lang="en"
+      suppressHydrationWarning={true}
+      className="scroll-smooth focus:scroll-auto"
+    >
       <body className={dm_mono.className}>
         <Navbar />
         {children}

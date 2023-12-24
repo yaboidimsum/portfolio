@@ -6,6 +6,7 @@ import HomeLogo from "@/components/HomeLogo";
 import Image from "next/image";
 import ToolsCard from "@/components/ToolsCard";
 import Link from "next/link";
+import PortoCard from "@/components/PortoCard";
 
 export default function Home() {
   return (
@@ -84,9 +85,14 @@ export default function Home() {
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="px-6 py-32">
+          <div className="mx-32 py-32">
             <ToolsCard />
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="flex min-h-screen flex-col items-center justify-center">
+          <PortoCard />
         </div>
       </section>
       <section>

@@ -13,8 +13,8 @@ const HomeLogo = ({ link, src, alt }) => {
         <Image
           src={src}
           alt={alt}
-          width={55} // Adjust the width for smaller screens
-          height={55} // Adjust the height for smaller screens
+          width={100} // Adjust the width for smaller screens
+          height={100} // Adjust the height for smaller screens
           className="h-[1rem] w-[1rem] md:h-[1.5rem] md:w-[1.5rem]"
         />
       </Link>
