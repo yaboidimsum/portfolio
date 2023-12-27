@@ -22,6 +22,7 @@ module.exports = {
         blue: "#0085FF",
         its_expo: "#E7DBC5",
         ukm_expo: "#00C2DE",
+        udemy: "#CE76FF",
       },
     },
   },

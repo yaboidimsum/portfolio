@@ -7,6 +7,7 @@ import Image from "next/image";
 import ToolsCard from "@/components/ToolsCard";
 import Link from "next/link";
 import PortoCard from "@/components/PortoCard";
+import CertifCard from "@/components/CertifCard";
 
 export default function Home() {
   return (
@@ -88,6 +89,11 @@ export default function Home() {
           <div className="mx-32 py-32">
             <ToolsCard />
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="flex min-h-screen flex-col items-center justify-center">
+          <CertifCard />
         </div>
       </section>
       <section>
