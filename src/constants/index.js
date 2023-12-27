@@ -156,7 +156,70 @@ const portfolioContent = [
   },
 ];
 
+const certificateContent = [
+  {
+    src: "/",
+    title: "COMPFEST 14 UX Academy",
+    technique:
+      "UX Design, UX Research, UX Writer, Design System, Design Thinking",
+    firstLink: "/",
+    secondLink: "/",
+    firstButtonText: "CERTIFICATE UX ACADEMY",
+    secondButtonText: "COMPFEST FASILKOM UI",
+  },
+  {
+    src: "/",
+    title: "Docker Mastery Bootcamp",
+    technique: "Basic Service, Build Docker App, Basic Docker Security",
+    firstLink: "/",
+    secondLink: "/",
+    firstButtonText: "CERTIFICATE DOCKER BOOTCAMP",
+    secondButtonText: "LAB AJK INFORMATIKA ITS",
+  },
+  {
+    src: "/",
+    title: "Udemy: Modern 3D House in Blender",
+    technique:
+      "Blender, Modelling, Material, Lighting, Rendering, Compositing, Particle System",
+    firstLink: "/",
+    secondLink: "/",
+    firstButtonText: "CERTIFICATE BLENDER MODERN HOUSE",
+    secondButtonText: "UDEMY COURSE WEBSITE",
+  },
+  {
+    src: "/",
+    title: "Hackerrank: Javascript Basic Assessment",
+    technique:
+      "Basic Javascript, Fundamental Javascript, Functions, Object Oriented Programming, Modules",
+    firstLink: "/",
+    secondLink: "/",
+    firstButtonText: "CERTIFICATE BASIC JAVASCRIPT",
+    secondButtonText: "HACKERRANK WEBSITE",
+  },
+  {
+    src: "/",
+    title: "Expert Staff: UI/UX Designer of ITS EXPO 2023",
+    technique:
+      "UI/UX Design, Website Design, Design System, Design Thinking, Staff Intelligence, Staff Management ",
+    firstLink: "/",
+    secondLink: "/",
+    firstButtonText: "CERTIFICATE EXPERT STAFF",
+    secondButtonText: "FIGMA ITS EXPO 2023",
+  },
+  {
+    src: "/",
+    title: "Ruangguru Engineering Academy: AI Mastery Bootcamp Batch 1 2023",
+    technique:
+      "Fundamentals of Python, Data Visualization, Linear Algebra and Calculus, Basic Machine Learning, Intro to Deep Learning, Visual Recognition with CNN, Natural Language Processing with Transformers, Langchain",
+    firstLink: "/",
+    secondLink: "/",
+    firstButtonText: "CERTIFICATE REA BOOTCAMP",
+    secondButtonText: "RUANGGURU ENGINEERING ACADEMY",
+  },
+];
+
 export default {
   skillContent,
   portfolioContent,
+  certificateContent,
 };
