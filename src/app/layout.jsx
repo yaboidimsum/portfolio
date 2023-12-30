@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       suppressHydrationWarning={true}
-      className="scroll-smooth focus:scroll-auto"
+      className="overflow-x-hidden scroll-smooth focus:scroll-auto"
     >
       <body className={dm_mono.className}>
         <Navbar />

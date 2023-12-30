@@ -36,7 +36,7 @@ const PortoCard = () => {
                 <h2 className="text-color-slate">{category.technique}</h2>
               </div>
               <div
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-delay="500"
                 data-aos-duration="500"
                 className="flex flex-col gap-2 "

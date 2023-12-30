@@ -21,7 +21,7 @@ const ToolsCard = () => {
           >
             {/* Render category title and hr */}
             <div className="flex w-full flex-col gap-2">
-              <h2 className="text-[0.95rem] text-color-white md:text-xl">
+              <h2 className="text-[0.85rem] text-color-white md:text-xl">
                 {category.title}
               </h2>
               <hr className="h-[0.5rem] w-full border-0 bg-color-primary" />
@@ -40,7 +40,7 @@ const ToolsCard = () => {
                     height={100}
                     className="w-[2.5rem] md:w-[4rem]"
                   />
-                  <h2 className="text-[0.95rem] text-color-white md:text-lg">
+                  <h2 className="text-[0.75rem] text-color-white md:text-lg">
                     {link.name}
                   </h2>
                 </div>
