@@ -54,7 +54,7 @@ export default function Home() {
                 link={
                   "https://www.linkedin.com/in/dimas-prihady-setyawan-47a66821a/"
                 }
-                src={"/logo/Linkedin.png"}
+                src={"/logo/linked.png"}
                 alt={"Linkedin"}
               />
               <HomeLogo
