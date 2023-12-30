@@ -8,21 +8,28 @@ const CertifCard = () => {
       <div className="px-6 text-color-white md:px-[9.5rem]">
         <div
           className="text-md mb-5 flex w-full justify-start text-color-primary md:text-3xl"
-          id="certificate"
         >
-          <h2>Certificate</h2>
+          <h2 data-aos="flip-up">Certificate</h2>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ">
           {contents.certificateContent.map((category, index) => (
             <div key={index} className="flex w-full flex-col gap-8 py-6 ">
               <Image
+                data-aos="fade-down"
+                data-aos-delay="500"
+                data-aos-duration="700"
                 src={category.src}
                 width={1920}
                 height={1080}
                 className="w-full md:h-[20rem] md:w-[30rem] "
               />
               <div className="flex flex-col justify-center gap-8">
-                <div className="flex flex-col gap-2">
+                <div
+                  data-aos="flip-up"
+                  data-aos-delay="500"
+                  data-aos-duration="700"
+                  className="flex flex-col gap-2"
+                >
                   <h2 className="text-[0.95rem] md:text-3xl">
                     {category.title.includes("Udemy") ? (
                       <>
@@ -40,7 +47,12 @@ const CertifCard = () => {
                   </h2>
                   <h2 className="text-color-slate">{category.technique}</h2>
                 </div>
-                <div className="flex flex-col gap-2 ">
+                <div
+                  data-aos="fade-down"
+                  data-aos-delay="500"
+                  data-aos-duration="700"
+                  className="flex flex-col gap-2 "
+                >
                   <div className="group flex flex-row gap-2 transition ease-in-out">
                     <Link
                       href={category.firstLink}

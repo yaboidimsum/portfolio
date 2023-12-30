@@ -4,8 +4,8 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed w-full outline outline-1 outline-color-white bg-opacity-80 bg-color-secondary bg-blend-saturation ">
-        <div className="flex flex-row items-center justify-between gap-8 px-8 py-4 md:px-40 md:py-4">
+      <nav className="fixed z-20 w-full bg-color-secondary bg-opacity-100 outline outline-1 outline-color-white ">
+        <div className="flex flex-row items-center gap-8 px-2 py-4 md:justify-between md:px-20 md:py-4">
           <div>
             <Image
               src="/img/logo.png"
@@ -15,34 +15,34 @@ const Navbar = () => {
               className="w-[2rem]  md:w-[5rem]"
             />
           </div>
-          <div className="flex flex-row gap-8 text-sm text-color-white transition ease-in-out md:gap-32 md:text-lg ">
+          <div className="md:text-md flex flex-row gap-8 text-xs text-color-white transition ease-in-out md:gap-32 ">
             <Link
-              href={`#home`}
+              href={`/#home`}
               className="group transition ease-in-out hover:text-color-primary"
             >
               home
             </Link>
             <Link
-              href={`#tools`}
+              href={`/#tools`}
               className="group transition ease-in-out hover:text-color-primary"
             >
               tools
             </Link>
             <Link
-              href={`#certificate`}
+              href={`/#certificate`}
               className="group transition ease-in-out hover:text-color-primary"
             >
               certificate
             </Link>
             <Link
-              href={`#portfolio`}
+              href={`/#portfolio`}
               className="group transition ease-in-out hover:text-color-primary"
             >
               project
             </Link>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

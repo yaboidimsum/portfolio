@@ -1,20 +1,30 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import HomeLogo from "@/components/HomeLogo";
 import Image from "next/image";
 import ToolsCard from "@/components/ToolsCard";
-import Link from "next/link";
 import PortoCard from "@/components/PortoCard";
 import CertifCard from "@/components/CertifCard";
+import Footer from "@/components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className="flex flex-col justify-start gap-4 md:gap-8">
+          <div
+            data-aos="fade-in"
+            data-aos-delay="500"
+            data-aos-duration="500"
+            className="flex flex-col justify-start gap-4 md:gap-8"
+          >
             <div>
               <h2 className="text-xs leading-[2rem] text-color-white md:text-[1rem] md:leading-[2rem]">
                 Awan is here to{" "}
@@ -60,10 +70,18 @@ export default function Home() {
         <div className="flex min-h-screen flex-col items-center justify-center">
           <div className="flex flex-col-reverse items-center justify-start gap-8 px-8 contrast-less:w-full md:px-0 xl:flex-row xl:gap-24">
             <div className="flex flex-col gap-2">
-              <h2 className="text-md text-color-primary md:text-xl">
+              <h2
+                data-aos="flip-up"
+                className="text-md text-color-primary md:text-xl"
+              >
                 Get to know me
               </h2>
-              <p className="max-w-2xl text-justify text-sm text-color-white md:text-base">
+              <p
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="500"
+                className="max-w-2xl text-justify text-sm text-color-white md:text-base"
+              >
                 My name is Awan, an Informatics Engineering Student at Institut
                 Teknologi Sepuluh Nopember. I’m pursuing my career on{" "}
                 <span className="text-color-primary">UI/UX Design</span> and
@@ -76,6 +94,9 @@ export default function Home() {
               </p>
             </div>
             <Image
+              data-aos="flip-left"
+              data-aos-delay="500"
+              data-aos-duration="500"
               src={"/logo/IF_Logo.png"}
               width={100}
               height={100}
@@ -85,47 +106,44 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="flex min-h-screen flex-col items-center justify-center">
+        <div
+          className="flex min-h-screen flex-col items-center justify-center"
+          id="tools"
+        >
           <div className="mx-32 py-32">
             <ToolsCard />
           </div>
         </div>
       </section>
       <section>
-        <div className="flex min-h-screen flex-col items-center justify-center">
-          <CertifCard />
+        <div
+          className="flex min-h-screen flex-col items-center justify-center"
+          id="certificate"
+        >
+          <div className="py-32">
+            <CertifCard />
+          </div>
         </div>
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-center justify-center">
-          <PortoCard />
+          <div
+            className="flex flex-col items-center justify-center gap-8"
+            id="portfolio"
+          >
+            <div className="py-32">
+              <PortoCard />
+            </div>
+            <h2 className="text-color-slate">
+              Last update:
+              <span className="text-color-primary">30/12/2023 23:14 GMT+7</span>
+            </h2>
+          </div>
         </div>
       </section>
       <section>
         <div className="flex min-h-screen flex-col items-start justify-center px-8 md:pl-32">
-          <div className="flex flex-col gap-8 text-sm md:text-base">
-            <div className="flex flex-col gap-2 md:flex-row md:gap-4">
-              <h2 className="text-color-white">Availability:</h2>
-              <Link
-                href={"mailto:dprihadisetiawan@gmail.com"}
-                target="_blank"
-                className="animate-pulse px-2 text-color-primary hover:animate-none hover:bg-color-primary hover:text-color-secondary"
-              >
-                Open for business. Click to contact me
-              </Link>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h2 className="text-color-blue">
-                Institut Teknologi Sepuluh Nopember
-              </h2>
-              <p className="max-w-xl text-justify text-color-white">
-                Teknik Kimia Street - Teknik Informatika Departement Building
-                Campus Institut Teknologi Sepuluh Nopember Surabaya Highway ITS,
-                Sukolilo, Surabaya 60111, Indonesia Surabaya
-              </p>
-            </div>
-            <h2 className="text-color-slate">Copyright ©️ 2023 Awan Website</h2>
-          </div>
+          <Footer />
         </div>
       </section>
     </>

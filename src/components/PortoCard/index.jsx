@@ -8,9 +8,8 @@ const PortoCard = () => {
       <div className="px-6 text-color-white md:px-[9.5rem]">
         <div
           className="text-md mb-5 flex w-full justify-start text-color-primary md:text-3xl"
-          id="portfolio"
         >
-          <h2>Portfolio</h2>
+          <h2 data-aos="flip-up">Portfolio</h2>
         </div>
         {contents.portfolioContent.map((category, index) => (
           <div
@@ -18,19 +17,32 @@ const PortoCard = () => {
             className="flex w-full flex-col gap-8 py-6  md:flex-row"
           >
             <Image
+              data-aos="fade-right"
+              data-aos-delay="500"
+              data-aos-duration="500"
               src={category.src}
               width={1000}
               height={1000}
               className="h-full w-full md:w-[35rem]"
             />
             <div className="flex flex-col justify-center gap-8">
-              <div className="flex flex-col gap-2">
+              <div
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="500"
+                className="flex flex-col gap-2"
+              >
                 <h2 className="text-[0.95rem] text-color-white md:text-3xl">
                   {category.title}
                 </h2>
                 <h2 className="text-color-slate">{category.technique}</h2>
               </div>
-              <div className="flex flex-col gap-2 ">
+              <div
+                data-aos="fade-left"
+                data-aos-delay="500"
+                data-aos-duration="500"
+                className="flex flex-col gap-2 "
+              >
                 <div className="group flex flex-row gap-2 transition ease-in-out">
                   <Link
                     href={category.firstLink}
