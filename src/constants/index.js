@@ -158,7 +158,7 @@ const portfolioContent = [
 
 const certificateContent = [
   {
-    src: "/certificate/COMPFEST 14 UX Academy.png",
+    src: "/certificate/COMPFEST 14 UX Academy.jpg",
     title: "COMPFEST 14 UX Academy",
     technique:
       "UX Design, UX Research, UX Writer, Design System, Design Thinking",
