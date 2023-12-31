@@ -110,7 +110,7 @@ export default function Home() {
           className="flex min-h-screen flex-col items-center justify-center"
           id="tools"
         >
-          <div className="py-32">
+          <div className="px-32 py-32">
             <ToolsCard />
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function Home() {
             <div className="py-32">
               <PortoCard />
             </div>
-            <h2 className="text-color-slate text-sm md:text-md">
+            <h2 className="md:text-md text-sm text-color-slate">
               Last update:
               <span className="text-color-primary">30/12/2023 23:14 GMT+7</span>
             </h2>
