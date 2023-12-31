@@ -110,7 +110,7 @@ export default function Home() {
           className="flex min-h-screen flex-col items-center justify-center"
           id="tools"
         >
-          <div className="px-32 py-32">
+          <div className="py-32">
             <ToolsCard />
           </div>
         </div>
