@@ -5,7 +5,7 @@ import Link from "next/link";
 const PortoCard = () => {
   return (
     <>
-      <div className="px-6 text-color-white md:px-[9.5rem]">
+      <div className="px-6 text-color-white">
         <div className="text-md mb-5 flex w-full justify-start text-color-primary md:text-3xl">
           <h2 data-aos="flip-up">Portfolio</h2>
         </div>
