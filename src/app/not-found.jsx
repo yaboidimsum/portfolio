@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <>
-      <h3>Not Found</h3>
+      <h3>Just DAILY UPLOAD</h3>
     </>
   );
 };
