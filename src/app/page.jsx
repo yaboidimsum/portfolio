@@ -7,6 +7,7 @@ import Image from "next/image";
 import ToolsCard from "@/components/ToolsCard";
 import PortoCard from "@/components/PortoCard";
 import CertifCard from "@/components/CertifCard";
+import BlogCard from "@/components/BlogCard";
 import Footer from "@/components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link
@@ -103,6 +104,11 @@ export default function Home() {
               className="w-[5rem] md:w-[10rem]"
             />
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="flex min-h-screen flex-col items-center justify-center">
+          <BlogCard />
         </div>
       </section>
       <section>

@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <>
-      <h3>This is a blog</h3>
+      <h3 className="plus-jakarta-sans">This is a blog</h3>
     </>
   );
 };
