@@ -225,8 +225,39 @@ const certificateContent = [
   },
 ];
 
+const blogContent = [
+  {
+    image: "/photo/IISMA.png",
+    title: "Awan 2021 Retrospetive Tech-Journey",
+    genre: ["Slice of Life", "Tech"],
+    date: "January 4th, 2023",
+    readtime: "~12 min read",
+    paragpraph:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+  },
+  {
+    image: "/photo/IISMA.png",
+    title: "Awan 2022 Retrospetive Tech-Journey",
+    genre: ["Slice of Life", "Tech"],
+    date: "January 4th, 2023",
+    readtime: "~12 min read",
+    paragpraph:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+  },
+  {
+    image: "/photo/IISMA.png",
+    title: "Awan 2023 Retrospetive Tech-Journey",
+    genre: ["Slice of Life", "Tech"],
+    date: "January 4th, 2023",
+    readtime: "~12 min read",
+    paragpraph:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+  },
+];
+
 export default {
   skillContent,
   portfolioContent,
   certificateContent,
+  blogContent,
 };
