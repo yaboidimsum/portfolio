@@ -223,6 +223,18 @@ const certificateContent = [
     firstButtonText: "CERTIFICATE REA BOOTCAMP",
     secondButtonText: "PERFORMANCE REPORT",
   },
+  {
+    src: "/certificate/Schematics-ITDEV.png",
+    title: "Expert Staff: UI/UX Designer of Schematics ITS 2023",
+    technique:
+      "UI/UX Design, Website Design, Design System, Design Thinking, Staff Intelligence, Staff Management ",
+    firstLink:
+      "https://drive.google.com/file/d/1Ur0lm1GyPdcfR7gargWPM3DSoyY2CrmQ/view?usp=sharing",
+    secondLink:
+      "https://www.figma.com/file/u5NhRuBk3QtPbtPuxyZlzM/Portfolio?type=design&node-id=0%3A1&mode=design&t=kPexva31pTKH5tOz-1",
+    firstButtonText: "CERTIFICATE EXPERT STAFF",
+    secondButtonText: "FIGMA SCHEMATICS ITS 2023",
+  },
 ];
 
 export default {
