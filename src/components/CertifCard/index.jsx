@@ -78,11 +78,11 @@ const CertifCard = () => {
                   </div>
                   <div className="group flex flex-row gap-2 transition ease-in-out">
                     <Link
-                      href={category.secondLink}
+                      href={category?.secondLink}
                       target="_blank"
                       className=" transition ease-in-out group-hover:text-color-primary"
                     >
-                      {category.secondButtonText}
+                      {category?.secondButtonText}
                     </Link>
 
                     <svg
