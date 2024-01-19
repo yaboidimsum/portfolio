@@ -235,6 +235,18 @@ const certificateContent = [
     firstButtonText: "CERTIFICATE EXPERT STAFF",
     secondButtonText: "FIGMA SCHEMATICS ITS 2023",
   },
+  {
+    src: "/certificate/STAFF-OF-LKMM-TD.png",
+    title: "Staff of LKMM-TD (Avatar) XXIX HMTC ITS 2023",
+    technique:
+      "Event Managerial, Teamwork, Communication, Management, Leadership, Role Management",
+    firstLink:
+      "https://drive.google.com/file/d/1Ur0lm1GyPdcfR7gargWPM3DSoyY2CrmQ/view?usp=sharing",
+    secondLink:
+      "https://www.its.ac.id/news/2005/03/15/menggali-potensi-diri-melalui-lkmm-td-hmtc/",
+    firstButtonText: "CERTIFICATE STAFF",
+    secondButtonText: "LKMM-TD HMTC ITS",
+  },
 ];
 
 const blogContent = [
