@@ -247,6 +247,18 @@ const certificateContent = [
     firstButtonText: "CERTIFICATE STAFF",
     secondButtonText: "LKMM-TD HMTC ITS",
   },
+  {
+    src: "/certificate/Kickstart-Webdev.png",
+    title: "Frontend & Backend Web Development Kickstart",
+    technique:
+      "Next JS, React JS, Tailwind CSS, Layouting, Golang, API",
+    firstLink:
+      "/",
+    secondLink:
+      "https://github.com/Lab-RPL-ITS",
+    firstButtonText: "CERTIFICATE OF COMPLETION",
+    secondButtonText: "GITHUB SOFTWARE ENGINEER LABORATORY ITS",
+  },
 ];
 
 export default {
