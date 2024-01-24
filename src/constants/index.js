@@ -117,6 +117,16 @@ const portfolioContent = [
     secondButtonText: "FIGMA UKM EXPO 2023",
   },
   {
+    src: "/portfolio/Alpha-Academy.png",
+    title: "Alpha Academy",
+    technique: "UI/UX Design, Website Design, Design System",
+    firstLink: "https://www.alpha-academy.id",
+    secondLink:
+      "/nonexistence",
+    firstButtonText: "VISIT ALPHA ACADEMY",
+    secondButtonText: "FIGMA ALPHA ACADEMY",
+  },
+  {
     src: "/portfolio/Landing Schematics.png",
     title: "Schematics 2023",
     technique: "UI/UX Design, Website Design, Design System",
