@@ -9,7 +9,7 @@ const Page = () => {
             <h2 className="text-xl font-medium text-color-primary">
               You Caught Me!
             </h2>
-            <p className="max-w-xl text-center text-color-white">
+            <p className="max-w-sm text-center text-sm text-color-white md:max-w-xl md:text-lg">
               The portfolio you are looking for is either{" "}
               <span className="text-color-primary">under development</span> or{" "}
               <span className="text-color-primary">
@@ -21,7 +21,12 @@ const Page = () => {
               </span>{" "}
               Sorry for the inconvenience.
             </p>
-            <Link href={"/#portfolio"} className="flex px-4 py-2 justify-center items-center bg-color-white rounded-md transition-all ease-in-out hover:bg-color-primary hover:text-color-white">Take me Home!</Link>
+            <Link
+              href={"/#portfolio"}
+              className="flex items-center justify-center rounded-md bg-color-white px-4 py-2 transition-all ease-in-out hover:bg-color-primary hover:text-color-white"
+            >
+              Take me Home!
+            </Link>
           </div>
         </div>
       </section>
