@@ -5,7 +5,7 @@ const Page = () => {
     <>
       <section>
         <div className="flex min-h-screen items-center justify-center">
-          <div className="flex flex-col items-center justify-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4 p-4">
             <h2 className="text-xl font-medium text-color-primary">
               You Caught Me!
             </h2>
