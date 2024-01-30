@@ -45,7 +45,7 @@ const ExperienceCard = () => {
               </div>
               <div className="flex flex-col gap-4">
                 <h2
-                  className="text-[0.85rem] text-color-white md:text-lg"
+                  className="text-[0.85rem] text-color-slate md:text-lg"
                   data-aos="flip-down"
                   data-aos-delay="800"
                   data-aos-duration="700"
