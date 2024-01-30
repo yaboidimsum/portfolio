@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import ToolsCard from "@/components/ToolsCard";
+import ExperienceCard from "@/components/ExperienceCard";
 import PortoCard from "@/components/PortoCard";
 import CertifCard from "@/components/CertifCard";
 import BlogCard from "@/components/BlogCard";
@@ -69,6 +70,13 @@ export default function Home() {
         >
           <BlogCard />
         </div>
+        <section>
+          <div className="flex min-h-screen flex-col items-center justify-center" id="experience">
+            <div className="py-32">
+              <ExperienceCard />
+            </div>
+          </div>
+        </section>
       </section>
       <section>
         <div

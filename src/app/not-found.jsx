@@ -7,11 +7,11 @@ const Page = () => {
   return (
     <>
       <section className="flex min-h-screen items-center justify-center">
-        <div className="flex flex-col items-center justify-center gap-6">
-          <span className="text-color-primary text-xl">
+        <div className="flex flex-col items-center justify-center gap-6 p-4">
+          <span className="text-color-primary text-sm md:text-xl">
             404
           </span>
-          <h3 className="text-color-primary text-xl">
+          <h3 className="text-color-primary text-sm md:text-xl text-center">
             <Typewriter
               skipAddStyles={false}
               options={{
@@ -27,7 +27,7 @@ const Page = () => {
             href={"/"}
             className="animate-bounce text-color-slate transition ease-in-out hover:text-color-primary"
           >
-            <h2 className="text-xl">Take me home! {`>`}:{`(`}</h2>
+            <h2 className="text-sm md:text-xl">Take me home! {`>`}:{`(`}</h2>
           </Link>
         </div>
       </section>
