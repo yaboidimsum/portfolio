@@ -2,7 +2,7 @@
 
 import useDownloader from "react-use-downloader";
 
-const DownloadResume = () => {
+const DownloadCV = () => {
   const { size, elapsed, percentage, download, cancel, error, isInProgress } =
     useDownloader();
 
