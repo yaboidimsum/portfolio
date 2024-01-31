@@ -190,9 +190,10 @@ const experienceContent = [
     title: "Lead Media",
     year: "November 2023 - January 2024",
     description: [
-      "Designed flow and main features of Alpha Academy website",
-      "Improved ongoing features from Alpha Academy",
-      "Discussed and worked together with IT team about the development of Alpha Academy website",
+      "Designed contents for KPU HMTC to engage its social media",
+      "Designed poster, flyer, and banner for ongoing event of KPU HMTC",
+      "Analyzed media coverage and social media analytics",
+      "Planned on to improve KPU HMTC Social Media to engage more people",
     ],
   },
   {
