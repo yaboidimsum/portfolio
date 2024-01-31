@@ -71,7 +71,10 @@ export default function Home() {
           <BlogCard />
         </div>
         <section>
-          <div className="flex min-h-screen flex-col items-center justify-center" id="experience">
+          <div
+            className="flex min-h-screen flex-col items-center justify-center"
+            id="experience"
+          >
             <div className="py-32">
               <ExperienceCard />
             </div>
