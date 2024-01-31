@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import HomeLogo from "@/components/HomeLogo";
 import Image from "next/image";
+import DownloadResume from "@/components/DownloadCV";
 import ToolsCard from "@/components/ToolsCard";
 import ExperienceCard from "@/components/ExperienceCard";
 import PortoCard from "@/components/PortoCard";
@@ -45,24 +46,27 @@ export default function Home() {
                 </span>
               </div>
             </div>
-            <div className="flex flex-row gap-4 md:gap-8">
-              <HomeLogo
-                link={"https://github.com/yaboidimsum"}
-                src={"/logo/Github.png"}
-                alt={"Github"}
-              />
-              <HomeLogo
-                link={
-                  "https://www.linkedin.com/in/dimas-prihady-setyawan-47a66821a/"
-                }
-                src={"/logo/linked.png"}
-                alt={"Linkedin"}
-              />
-              <HomeLogo
-                link={"https://www.instagram.com/dimasprihady/"}
-                src={"/logo/Instagram.png"}
-                alt={"Instagram"}
-              />
+            <div className="flex flex-col gap-4 md:flex-row md:gap-8">
+              <div className="flex flex-row gap-4 md:gap-8">
+                <HomeLogo
+                  link={"https://github.com/yaboidimsum"}
+                  src={"/logo/Github.png"}
+                  alt={"Github"}
+                />
+                <HomeLogo
+                  link={
+                    "https://www.linkedin.com/in/dimas-prihady-setyawan-47a66821a/"
+                  }
+                  src={"/logo/linked.png"}
+                  alt={"Linkedin"}
+                />
+                <HomeLogo
+                  link={"https://www.instagram.com/dimasprihady/"}
+                  src={"/logo/Instagram.png"}
+                  alt={"Instagram"}
+                />
+              </div>
+                <DownloadResume />
             </div>
           </div>
         </div>
