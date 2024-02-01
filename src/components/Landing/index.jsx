@@ -1,10 +1,16 @@
-"use client"
+"use client";
 
 import Typewriter from "typewriter-effect";
 import HomeLogo from "@/components/HomeLogo";
 import DownloadCV from "@/components/DownloadCV";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Landing = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
