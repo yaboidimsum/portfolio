@@ -1,5 +1,3 @@
-"use client"
-
 import contents from "@/constants";
 
 const ExperienceCard = () => {
