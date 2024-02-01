@@ -1,3 +1,5 @@
+"use client"
+
 import Typewriter from "typewriter-effect";
 import HomeLogo from "@/components/HomeLogo";
 import DownloadCV from "@/components/DownloadCV";
