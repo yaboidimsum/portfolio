@@ -1,8 +1,11 @@
-"use client"
+"use client";
 
 import Typewriter from "typewriter-effect";
 import HomeLogo from "@/components/HomeLogo";
 import DownloadCV from "@/components/DownloadCV";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Landing = () => {
   return (

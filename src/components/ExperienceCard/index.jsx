@@ -1,7 +1,7 @@
 import contents from "@/constants";
-import Image from "next/image";
 
 const ExperienceCard = () => {
+
   return (
     <div className="w-[20rem] md:w-full md:px-32">
       <div className="mb-5 flex w-full justify-start text-sm text-color-primary md:text-3xl">
