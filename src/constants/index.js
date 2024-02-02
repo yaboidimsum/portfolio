@@ -98,9 +98,28 @@ const skillContent = [
 const experienceContent = [
   {
     client: "COMPFEST 14",
+    category: [
+      "UX Design",
+      "UX Research",
+      "UX Writer",
+      "Design System",
+      "Design Thinking",
+      "Project Management",
+      "Project Based Learning",
+    ],
     location: "DKI Jakarta, South Jakarta Administration",
     title: "User Experience Academy Participant",
     year: "August 2022 - September 2022",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+      {
+        image: "/skill/front-end/tailwind.png",
+        name: "Tailwind CSS",
+      },
+    ],
     description: [
       "Trained and worked as a team at User Experience Academy, learned about UX research, writing, design, and usability testing for three weeks. Followed by solving a case study as a final project at the end of the training.",
       "Collaborated and worked with Data Science, Software Engineering, and Startup teams to solve the final case study at the last event of COMPFEST 14.",
@@ -108,9 +127,21 @@ const experienceContent = [
   },
   {
     client: "HMTC Election Committee 2023",
+    category: [
+      "Media Design",
+      "Social Media Management",
+      "Media Analysis",
+      "Media Planning",
+    ],
     location: "East Java, Surabaya",
     title: "Media Designer",
     year: "November 2022 - January 2023",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     description: [
       "Designed contents for KPU HMTC to engage its social media",
       "Designed poster, flyer, and banner for ongoing event of KPU HMTC",
@@ -118,9 +149,25 @@ const experienceContent = [
   },
   {
     client: "ITS EXPO 2023",
+    category: [
+      "UI Design",
+      "Website Design",
+      "Mobile Design",
+      "Design System",
+      "Design Thinking",
+      "Project Management",
+      "Staff Intelligence",
+      "Staff Management",
+    ],
     location: "East Java, Surabaya",
     title: "Expert Staff of UI/UX Designer",
     year: "December 2022 - June 2023",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     description: [
       "Responsible for the web design of the ITS Expo website",
       "Designing the flow and user experience of the ITS Expo website",
@@ -132,9 +179,25 @@ const experienceContent = [
   },
   {
     client: "UKM EXPO 2023",
+    category: [
+      "UI Design",
+      "Website Design",
+      "Mobile Design",
+      "Design System",
+      "Design Thinking",
+      "Project Management",
+      "Staff Intelligence",
+      "Staff Management",
+    ],
     location: "East Java, Surabaya",
     title: "Expert Staff of UI/UX Designer",
     year: "March 2023 - August 2023",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     description: [
       "Responsible for the web design of the UKM Expo website",
       "Designing the flow and user experience of the UKM Expo website",
@@ -145,9 +208,27 @@ const experienceContent = [
   },
   {
     client: "REA AI Mastery Bootcamp Batch 1",
+    category: [
+      "Python Programming",
+      "Data Wrangling",
+      "Data Visualization",
+      "Linear Algebra",
+      "Calculus",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "AI Trend",
+      "Realworld NLP App",
+    ],
     location: "West Java, Bekasi",
     title: "Participant",
     year: "August 2023 - October 2023",
+    techstack: [
+      {
+        image: "/skill/language/python.png",
+        name: "Python",
+      },
+    ],
     description: [
       "Learned fundamentals of Python for Machine and Deep Learning",
       "Learned how to work with data such as data wrangling with Pandas, data cleansing, and visualizing data",
@@ -155,16 +236,31 @@ const experienceContent = [
       "Implemented Deep Learning with Pytorch. Learned to construct, train, and fine-tune neural networks effectively, transforming my understanding of key concepts into hands-on experience for real-world applications",
       "Explored the realm of visual recognition by learning about Convolutional Neural Networks (CNNs) and their applications in Computer Vision. Discover how to utilize CNNs for image classification, object detection, and more, elevating my skills in processing and interpreting complex visual data",
       "Natural Language Processing with Transformers. Learned to create powerful models that can perform tasks like translation, summarization, and sentiment analysis, and unlock the potential of conversational AI",
-      "Natural Language Processing with Transformers. Learned to create powerful models that can perform tasks like translation, summarization, and sentiment analysis, and unlock the potential of conversational AI",
       "Explored the latest AI Trend such as GPT-4 and Stable Diffusion",
       "Built Realworld NLP app with LangChain/Semantic Kernel",
     ],
   },
   {
     client: "Schematics ITS 2023",
+    category: [
+      "UI Design",
+      "Website Design",
+      "Mobile Design",
+      "Design System",
+      "Design Thinking",
+      "Project Management",
+      "Staff Intelligence",
+      "Staff Management",
+    ],
     location: "East Java, Surabaya",
     title: "Expert Staff of UI/UX Designer",
     year: "February 2023 - November 2023",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     description: [
       "Responsible for the web design of the Schematics ITS website",
       "Designing the flow and user experience of the Schematics ITS website",
@@ -175,9 +271,24 @@ const experienceContent = [
   },
   {
     client: "Alpha Academy",
+    category: [
+      "UI Design",
+      "Website Design",
+      "Mobile Design",
+      "Design System",
+      "Design Thinking",
+      "Project Management",
+      "Team Collaboration",
+    ],
     location: "East Java, Surabaya",
     title: "UI/UX Designer",
     year: "October 2022 - January 2024",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     description: [
       "Designed flow and main features of Alpha Academy website",
       "Improved ongoing features from Alpha Academy",
@@ -186,9 +297,23 @@ const experienceContent = [
   },
   {
     client: "HMTC Election Committee 2024",
+    category: [
+      "Media Design",
+      "Social Media Management",
+      "Social Media Strategist",
+      "Media Analysis",
+      "Media Planning",
+      "Staff Management",
+    ],
     location: "East Java, Surabaya",
     title: "Lead Media",
     year: "November 2023 - January 2024",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     description: [
       "Designed contents for KPU HMTC to engage its social media",
       "Designed poster, flyer, and banner for ongoing event of KPU HMTC",
@@ -198,9 +323,34 @@ const experienceContent = [
   },
   {
     client: "Alpha Academy",
+    category: [
+      "Frontend",
+      "Next JS Framework",
+      "React JS",
+      "UI Slicing",
+      "CSS Styling",
+    ],
     location: "East Java, Surabaya",
     title: "Frontend Developer",
     year: "January 2024 - Present",
+    techstack: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+      {
+        image: "/skill/front-end/reactjs.png",
+        name: "React JS",
+      },
+      {
+        image: "/skill/front-end/nextjs.png",
+        name: "Next JS",
+      },
+      {
+        image: "/skill/front-end/tailwind.png",
+        name: "Tailwind CSS",
+      },
+    ],
     description: [
       "Implemented frontend of Alpha Academy website from design to code",
       "Create certain logic and features of Alpha Academy website",
@@ -382,9 +532,40 @@ const certificateContent = [
   },
 ];
 
+const blogContent = [
+  {
+    image: "/photo/IISMA.png",
+    title: "Awan 2021 Retrospetive Tech-Journey",
+    genre: ["Slice of Life", "Tech"],
+    date: "January 1st, 2023",
+    readtime: "~12 min read",
+    paragpraph:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+  },
+  {
+    image: "/photo/IISMA.png",
+    title: "Awan 2022 Retrospetive Tech-Journey",
+    genre: ["Slice of Life", "Tech"],
+    date: "January 1st, 2023",
+    readtime: "~12 min read",
+    paragpraph:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+  },
+  {
+    image: "/photo/IISMA.png",
+    title: "Awan 2023 Retrospetive Tech-Journey",
+    genre: ["Slice of Life", "Tech"],
+    date: "January 1th, 2023",
+    readtime: "~12 min read",
+    paragpraph:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+  },
+];
+
 export default {
   skillContent,
   experienceContent,
   portfolioContent,
   certificateContent,
+  blogContent,
 };
