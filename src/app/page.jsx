@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <h2 className="md:text-md text-sm text-color-slate">
               Last update:
-              <span className="text-color-primary">02/02/2024 23:14 GMT+7</span>
+              <span className="text-color-primary">02/02/2024 15:45 GMT+7</span>
             </h2>
           </div>
         </div>
