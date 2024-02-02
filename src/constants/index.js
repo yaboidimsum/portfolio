@@ -365,6 +365,12 @@ const portfolioContent = [
     src: "/portfolio/Landing ITS EXPO.png",
     title: "ITS EXPO 2023",
     technique: "UI/UX Design, Website Design, Design System",
+    tech: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     firstLink: "https://www.expo-its.com/",
     secondLink:
       "https://www.figma.com/file/u5NhRuBk3QtPbtPuxyZlzM/Portfolio?type=design&node-id=0%3A1&mode=design&t=kPexva31pTKH5tOz-1",
@@ -375,6 +381,12 @@ const portfolioContent = [
     src: "/portfolio/Landing UKM EXPO.png",
     title: "UKM EXPO 2023",
     technique: "UI/UX Design, Website Design, Design System",
+    tech: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     firstLink: "https://itsukmexpo.com/",
     secondLink:
       "https://www.figma.com/file/u5NhRuBk3QtPbtPuxyZlzM/Portfolio?type=design&node-id=0%3A1&mode=design&t=kPexva31pTKH5tOz-1",
@@ -385,6 +397,12 @@ const portfolioContent = [
     src: "/portfolio/Alpha-Academy.png",
     title: "Alpha Academy",
     technique: "UI/UX Design, Website Design, Design System",
+    tech: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     firstLink: "https://www.alpha-academy.id",
     secondLink: "/nonexistence",
     firstButtonText: "VISIT ALPHA ACADEMY",
@@ -394,6 +412,12 @@ const portfolioContent = [
     src: "/portfolio/Landing Schematics.png",
     title: "Schematics 2023",
     technique: "UI/UX Design, Website Design, Design System",
+    tech: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+    ],
     firstLink: "https://schematics-its.com/",
     secondLink:
       "https://www.figma.com/file/u5NhRuBk3QtPbtPuxyZlzM/Portfolio?type=design&node-id=0%3A1&mode=design&t=kPexva31pTKH5tOz-1",
@@ -405,6 +429,12 @@ const portfolioContent = [
     title: "3D Model: Modern House",
     technique:
       "Blender, Modelling, Material, Lighting, Rendering, Compositing, Particle System",
+    tech: [
+      {
+        image: "/skill/3d-design/blender.png",
+        name: "Blender 3D",
+      },
+    ],
     firstLink: "Personal Project",
     secondLink: "https://www.blender.org",
     firstButtonText: "PERSONAL PROJECT",
@@ -414,6 +444,24 @@ const portfolioContent = [
     src: "/portfolio/Hoobank Landing.png",
     title: "Hoobank Landing Page",
     technique: "Website Design, Vite, TailwindCSS, React JS, Figma",
+    tech: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+      {
+        image: "/skill/front-end/reactjs.png",
+        name: "React JS",
+      },
+      {
+        image: "/skill/front-end/vitejs.png",
+        name: "Vite JS",
+      },
+      {
+        image: "/skill/front-end/tailwind.png",
+        name: "Tailwind CSS",
+      },
+    ],
     firstLink: "https://yaboidimsum.github.io/modern-bank-web/",
     secondLink: "https://github.com/yaboidimsum/modern-bank-web",
     firstButtonText: "VISIT DEPLOYMENT",
@@ -423,11 +471,30 @@ const portfolioContent = [
     src: "/portfolio/Landing Nike.png",
     title: "Nike Store Landing Page",
     technique: "Website Design, Vite, TailwindCSS, React JS, Figma",
+    tech: [
+      {
+        image: "/skill/ui-design/figma.png",
+        name: "Figma",
+      },
+      {
+        image: "/skill/front-end/reactjs.png",
+        name: "React JS",
+      },
+      {
+        image: "/skill/front-end/vitejs.png",
+        name: "Vite JS",
+      },
+      {
+        image: "/skill/front-end/tailwind.png",
+        name: "Tailwind CSS",
+      },
+    ],
     firstLink: "https://yaboidimsum.github.io/nike-website/",
     secondLink: "https://github.com/yaboidimsum/nike-website",
     firstButtonText: "VISIT DEPLOYMENT",
     secondButtonText: "VISIT GITHUB REPO",
   },
+  // ... (Repeat the structure for other portfolio items)
 ];
 
 const certificateContent = [

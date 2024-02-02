@@ -53,7 +53,7 @@ const ExperienceCard = () => {
                   >
                     <div
                       key={catIndex}
-                      className="flex w-auto rounded-lg border-2 border-color-primary bg-[#149D63] px-2 py-1 text-color-white transition duration-300 ease-in-out hover:cursor-pointer hover:bg-color-primary hover:text-color-secondary"
+                      className="flex w-auto rounded-lg border-2 border-color-primary bg-[#149D63] px-2 py-1 text-color-white transition duration-300 ease-in-out hover:cursor-none hover:cursor-pointer hover:bg-color-primary hover:text-color-secondary"
                     >
                       <h2 className="text-[0.8rem]">{cat}</h2>
                     </div>
@@ -97,12 +97,13 @@ const ExperienceCard = () => {
             <div className="flex flex-col gap-4">
               {category.description.map((desc, descIndex) => (
                 <div
-                  key={descIndex}
                   className="flex flex-row items-center justify-start gap-4"
+                  key={descIndex}
                 >
                   <div className="flex pl-6">
                     <ul className="text-[0.75rem] text-color-white md:text-lg">
                       <li
+                        key={descIndex}
                         className="list-disc"
                         data-aos="flip-down"
                         data-aos-delay="800"

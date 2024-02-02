@@ -5,3 +5,11 @@
 body {
   @apply bg-color-secondary;
 }
+
+html {
+  --cursor-color: #edf6f9;
+}
+
+html.dark-mode {
+  --cursor-color: #edf6f9;
+}

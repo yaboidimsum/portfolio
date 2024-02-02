@@ -6,9 +6,7 @@ const CertifCard = () => {
   return (
     <>
       <div className="px-6 text-color-white md:px-[9.5rem]">
-        <div
-          className="text-md mb-5 flex w-full justify-start text-color-primary md:text-3xl"
-        >
+        <div className="text-md mb-5 flex w-full justify-start text-color-primary md:text-3xl">
           <h2 data-aos="flip-up">Certificate</h2>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ">
@@ -70,7 +68,7 @@ const CertifCard = () => {
                       className="h-[1.0rem] w-[1.0rem] fill-color-white transition ease-in-out group-hover:fill-color-primary "
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         clipRule="evenodd"
                         d="M68.786 64.6432C68.786 59.1204 73.2632 54.6432 78.786 54.6432L135.355 54.6432C140.877 54.6432 145.355 59.1204 145.355 64.6432L145.355 121.212C145.355 126.735 140.877 131.212 135.355 131.212C129.832 131.212 125.355 126.735 125.355 121.212L125.355 88.7853L71.715 142.425C67.8097 146.33 61.4781 146.33 57.5728 142.425C53.6676 138.52 53.6676 132.188 57.5728 128.283L111.212 74.6432L78.786 74.6432C73.2632 74.6432 68.786 70.1661 68.786 64.6432Z"
                       />
@@ -93,7 +91,7 @@ const CertifCard = () => {
                       className="h-[1.0rem] w-[1.0rem] fill-color-white transition ease-in-out group-hover:fill-color-primary"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         clipRule="evenodd"
                         d="M68.786 64.6432C68.786 59.1204 73.2632 54.6432 78.786 54.6432L135.355 54.6432C140.877 54.6432 145.355 59.1204 145.355 64.6432L145.355 121.212C145.355 126.735 140.877 131.212 135.355 131.212C129.832 131.212 125.355 126.735 125.355 121.212L125.355 88.7853L71.715 142.425C67.8097 146.33 61.4781 146.33 57.5728 142.425C53.6676 138.52 53.6676 132.188 57.5728 128.283L111.212 74.6432L78.786 74.6432C73.2632 74.6432 68.786 70.1661 68.786 64.6432Z"
                       />

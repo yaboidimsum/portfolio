@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HomeLogo = ({ link, src, alt }) => {
   return (
-    <div className="flex h-[2rem] w-[2rem] cursor-pointer items-center justify-center rounded-md md:rounded-lg bg-color-white transition duration-300 ease-in-out hover:bg-color-primary md:h-[3rem] md:w-[3rem]">
+    <div className="flex h-[2rem] w-[2rem] items-center justify-center rounded-md md:rounded-lg bg-color-white transition duration-300 ease-in-out hover:bg-color-primary md:h-[3rem] md:w-[3rem]">
       {" "}
       <Link
         href={link}
