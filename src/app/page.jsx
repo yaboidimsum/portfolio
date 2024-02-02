@@ -3,6 +3,7 @@ import ToolsCard from "@/components/ToolsCard";
 import ExperienceCard from "@/components/ExperienceCard";
 import PortoCard from "@/components/PortoCard";
 import CertifCard from "@/components/CertifCard";
+import BlogCard from "@/components/BlogCard";
 import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
 
@@ -18,12 +19,20 @@ export default function Home() {
       <section>
         <div
           className="flex min-h-screen flex-col items-center justify-center"
-          id="experience"
+          id="blogs"
         >
-          <div className="py-32">
-            <ExperienceCard />
-          </div>
+          <BlogCard />
         </div>
+        <section>
+          <div
+            className="flex min-h-screen flex-col items-center justify-center"
+            id="experience"
+          >
+            <div className="py-32">
+              <ExperienceCard />
+            </div>
+          </div>
+        </section>
       </section>
       <section>
         <div

@@ -15,12 +15,18 @@ const Navbar = () => {
               className="w-[2rem]  md:w-[5rem]"
             />
           </div>
-          <div className="md:text-md flex w-full flex-row md:justify-end justify-between text-xs text-color-white transition ease-in-out md:gap-32 ">
+          <div className="md:text-md flex w-full flex-row justify-between text-xs text-color-white transition ease-in-out md:justify-end md:gap-32 ">
             <Link
               href={`/#home`}
               className="group transition ease-in-out hover:text-color-primary"
             >
               home
+            </Link>
+            <Link
+              href={`/#blogs`}
+              className="group transition ease-in-out hover:text-color-primary"
+            >
+              blogs
             </Link>
             <Link
               href={`/#experience`}
