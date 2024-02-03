@@ -1,3 +1,5 @@
+"use client";
+
 import contents from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +19,8 @@ const CertifCard = () => {
                 data-aos-delay="500"
                 data-aos-duration="700"
                 src={category.src}
-                width={1920}
-                height={1080}
+                width={860}
+                height={540}
                 className="w-full md:h-[20rem] md:w-[30rem] "
               />
               <div className="flex flex-col justify-center gap-8">

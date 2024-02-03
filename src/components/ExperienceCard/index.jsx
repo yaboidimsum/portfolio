@@ -47,14 +47,12 @@ const ExperienceCard = () => {
               <div className="flex flex-wrap gap-2">
                 {category.category.map((cat, catIndex) => (
                   <div
+                    key={catIndex}
                     data-aos="flip-up"
                     data-aos-delay="650"
                     data-aos-duration="700"
                   >
-                    <div
-                      key={catIndex}
-                      className="flex w-auto rounded-lg border-2 border-color-primary bg-[#149D63] px-2 py-1 text-color-white transition duration-300 ease-in-out hover:cursor-none hover:cursor-pointer hover:bg-color-primary hover:text-color-secondary"
-                    >
+                    <div className="flex w-auto rounded-lg border-2 border-color-primary bg-[#149D63] px-2 py-1 text-color-white transition duration-300 ease-in-out hover:cursor-none hover:cursor-pointer hover:bg-color-primary hover:text-color-secondary">
                       <h2 className="text-[0.8rem]">{cat}</h2>
                     </div>
                   </div>

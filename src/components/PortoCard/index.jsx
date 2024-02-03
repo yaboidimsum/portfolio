@@ -19,8 +19,8 @@ const PortoCard = () => {
               data-aos-delay="500"
               data-aos-duration="500"
               src={category.src}
-              width={1920}
-              height={1080}
+              width={860}
+              height={540}
               className="h-full w-full md:w-[35rem]"
             />
             <div className="flex flex-col justify-center gap-8">
