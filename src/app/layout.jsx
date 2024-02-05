@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <meta property="og:url" content="https://yaboidimsum.vercel.app"></meta>
       <meta
         property="og:image"
-        content="/public/opengraph/opengraph-image.png"
+        content="https://cdn.discordapp.com/attachments/693469512246362194/1203977052907380756/opengraph-image.png"
       ></meta>
       <body className={dm_mono.className}>
         <SpeedInsights />
