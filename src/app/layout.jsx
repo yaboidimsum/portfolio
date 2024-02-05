@@ -21,6 +21,10 @@ export default function RootLayout({ children }) {
       className="overflow-x-hidden scroll-smooth focus:scroll-auto"
     >
       <meta property="og:url" content="https://yaboidimsum.vercel.app"></meta>
+      <meta
+        property="og:image"
+        content="/public/opengraph/opengraph-image.png"
+      ></meta>
       <body className={dm_mono.className}>
         <SpeedInsights />
         <Navbar />
