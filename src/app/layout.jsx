@@ -5,11 +5,18 @@ import AnimatedCursor from "react-animated-cursor";
 const PJS = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const dm_mono = DM_Mono({ subsets: ["latin"], weight: ["300", "400", "500"] });
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Head from "next/head";
 
 export const metadata = {
   title: "Awan Code",
   description:
     "Welcome to Awan Code, a portfolio website for Awan, a junior developer and designer.",
+  og: {
+    title: "Awan's Portfolio Website",
+    description:
+      "Welcome to Awan Code, a portfolio website for Awan, a junior developer and designer.",
+    url: "https://yaboidimsum.vercel.app",
+  },
 };
 
 export default function RootLayout({ children }) {
