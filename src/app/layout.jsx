@@ -11,12 +11,6 @@ export const metadata = {
   title: "Awan Code",
   description:
     "Welcome to Awan Code, a portfolio website for Awan, a junior developer and designer.",
-  og: {
-    title: "Awan's Portfolio Website",
-    description:
-      "Welcome to Awan Code, a portfolio website for Awan, a junior developer and designer.",
-    url: "https://yaboidimsum.vercel.app",
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -26,6 +20,7 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning={true}
       className="overflow-x-hidden scroll-smooth focus:scroll-auto"
     >
+      <meta property="og:url" content="https://yaboidimsum.vercel.app"></meta>
       <body className={dm_mono.className}>
         <SpeedInsights />
         <Navbar />
