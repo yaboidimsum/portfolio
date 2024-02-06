@@ -5,7 +5,6 @@ import AnimatedCursor from "react-animated-cursor";
 const PJS = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const dm_mono = DM_Mono({ subsets: ["latin"], weight: ["300", "400", "500"] });
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import Head from "next/head";
 
 export const metadata = {
   title: "Awan Code",
@@ -27,7 +26,7 @@ export default function RootLayout({ children }) {
       ></meta>
       <body className={dm_mono.className}>
         <SpeedInsights />
-        <Navbar />
+        {/* <Navbar /> */}
         <AnimatedCursor
           innerSize={8}
           outerSize={35}

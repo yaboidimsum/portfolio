@@ -1,7 +1,9 @@
 const Loading = () => {
   return (
     <div>
-      <h1>Loading...</h1>
+      <div className="flex min-h-screen items-center justify-center font-bold text-color-white">
+        <h1>Loading...</h1>
+      </div>
     </div>
   );
 };
