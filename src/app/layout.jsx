@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       ></meta>
       <body className={dm_mono.className}>
         <SpeedInsights />
-        {/* <Navbar /> */}
+        <Navbar />
         <AnimatedCursor
           innerSize={8}
           outerSize={35}
