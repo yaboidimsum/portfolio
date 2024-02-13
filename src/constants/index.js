@@ -531,7 +531,7 @@ const certificateContent = [
     secondButtonText: "UDEMY COURSE WEBSITE",
   },
   {
-    src: "/certificate/Hackerrank Basic JS.png",
+    src: "/certificate/min/Hackerrank Basic JS-min.png",
     title: "Hackerrank: Javascript Basic Assessment",
     technique:
       "Basic Javascript, Fundamental Javascript, Functions, Object Oriented Programming, Modules",
@@ -541,7 +541,7 @@ const certificateContent = [
     secondButtonText: "HACKERRANK WEBSITE",
   },
   {
-    src: "/certificate/ITS-EXPO.png",
+    src: "/certificate/min/Certificate-ITS-EXPO.jpg",
     title: "Expert Staff: UI/UX Designer of ITS EXPO 2023",
     technique:
       "UI/UX Design, Website Design, Design System, Design Thinking, Staff Intelligence, Staff Management ",
@@ -553,7 +553,7 @@ const certificateContent = [
     secondButtonText: "FIGMA ITS EXPO 2023",
   },
   {
-    src: "/certificate/Ruangguru Mastery Bootcamp.png",
+    src: "/certificate/min/Ruangguru Mastery Bootcamp.jpg",
     title: "Ruangguru Engineering Academy: AI Mastery Bootcamp Batch 1 2023",
     technique:
       "Fundamentals of Python, Data Visualization, Linear Algebra and Calculus, Basic Machine Learning, Intro to Deep Learning, Visual Recognition with CNN, Natural Language Processing with Transformers, Langchain",
@@ -565,7 +565,7 @@ const certificateContent = [
     secondButtonText: "PERFORMANCE REPORT",
   },
   {
-    src: "/certificate/Schematics-ITDEV.png",
+    src: "/certificate/min/Schematics-ITDEV.jpg",
     title: "Expert Staff: UI/UX Designer of Schematics ITS 2023",
     technique:
       "UI/UX Design, Website Design, Design System, Design Thinking, Staff Intelligence, Staff Management ",
@@ -577,7 +577,7 @@ const certificateContent = [
     secondButtonText: "FIGMA SCHEMATICS ITS 2023",
   },
   {
-    src: "/certificate/STAFF-OF-LKMM-TD.png",
+    src: "/certificate/min/STAFF-OF-LKMM-TD.jpg",
     title: "Staff of LKMM-TD (Avatar) XXIX HMTC ITS 2023",
     technique:
       "Event Managerial, Teamwork, Communication, Management, Leadership, Role Management",
@@ -589,13 +589,22 @@ const certificateContent = [
     secondButtonText: "LKMM-TD HMTC ITS",
   },
   {
-    src: "/certificate/Kickstart-Webdev.png",
+    src: "/certificate/min/Kickstart-Webdev.jpg",
     title: "Frontend & Backend Web Development Kickstart",
     technique: "Next JS, React JS, Tailwind CSS, Layouting, Golang, API",
     firstLink: "/",
     secondLink: "https://github.com/Lab-RPL-ITS",
     firstButtonText: "CERTIFICATE OF COMPLETION",
     secondButtonText: "GITHUB SOFTWARE ENGINEER LABORATORY ITS",
+  },
+  {
+    src: "/certificate/min/dicoding/dicoding_softwaredev.png",
+    title: "Dicoding: Starting Basics of Programming to Become a Software Developer",
+    technique: "Software Development, User Requirement Specification, Software Requirement Specification, Flowchart, HTML, CSS, Javascript, Version Control System",
+    firstLink: "https://www.dicoding.com/certificates/0LZ02YERKX65",
+    secondLink: "https://www.dicoding.com",
+    firstButtonText: "CERTIFICATE OF COMPLETION",
+    secondButtonText: "DICODING WEBSITE",
   },
 ];
 

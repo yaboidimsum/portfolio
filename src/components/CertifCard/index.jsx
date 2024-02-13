@@ -11,7 +11,7 @@ const CertifCard = () => {
         <div className="text-md mb-5 flex w-full justify-start text-color-primary md:text-3xl">
           <h2 data-aos="flip-up">Certificate</h2>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 ">
           {contents.certificateContent.map((category, index) => (
             <div key={index} className="flex w-full flex-col gap-8 py-6 ">
               <Image
@@ -41,11 +41,23 @@ const CertifCard = () => {
                         <span className="text-color-primary">Hackerrank</span>
                         {category.title.replace("Hackerrank", "")}
                       </>
+                    ) : category.title.includes("Dicoding") ? (
+                      <>
+                        <span className="text-color-ukm_expo">Dicoding</span>
+                        {category.title.replace("Dicoding", "")}
+                      </>
+                    ) : category.title.includes("Ruangguru Engineering Academy") ? (
+                      <>
+                        <span className="text-color-ukm_expo">Ruangguru Engineering Academy</span>
+                        {category.title.replace("Ruangguru Engineering Academy", "")}
+                      </>
                     ) : (
                       category.title
                     )}
                   </h2>
-                  <h2 className="text-color-slate">{category.technique}</h2>
+                  <h2 className="max-w-lg text-color-slate">
+                    {category.technique}
+                  </h2>
                 </div>
                 <div
                   data-aos="fade-down"
