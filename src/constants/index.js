@@ -599,9 +599,21 @@ const certificateContent = [
   },
   {
     src: "/certificate/min/dicoding/dicoding_softwaredev.png",
-    title: "Dicoding: Starting Basics of Programming to Become a Software Developer",
-    technique: "Software Development, User Requirement Specification, Software Requirement Specification, Flowchart, HTML, CSS, Javascript, Version Control System",
+    title:
+      "Dicoding: Starting Basics of Programming to Become a Software Developer",
+    technique:
+      "Software Development, User Requirement Specification, Software Requirement Specification, Flowchart, HTML, CSS, Javascript, Version Control System",
     firstLink: "https://www.dicoding.com/certificates/0LZ02YERKX65",
+    secondLink: "https://www.dicoding.com",
+    firstButtonText: "CERTIFICATE OF COMPLETION",
+    secondButtonText: "DICODING WEBSITE",
+  },
+  {
+    src: "/certificate/min/dicoding/dicoding_logicprogramming.png",
+    title: "Dicoding: Introduction to Programming Logic 101",
+    technique:
+      "Programming Logic, Logic Method, Logic Gates, Computational Thinking",
+    firstLink: "https://www.dicoding.com/certificates/6RPNV7QGQZ2M",
     secondLink: "https://www.dicoding.com",
     firstButtonText: "CERTIFICATE OF COMPLETION",
     secondButtonText: "DICODING WEBSITE",
