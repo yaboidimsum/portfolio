@@ -618,6 +618,16 @@ const certificateContent = [
     firstButtonText: "CERTIFICATE OF COMPLETION",
     secondButtonText: "DICODING WEBSITE",
   },
+  {
+    src: "/certificate/min/dicoding/dicoding_git.png",
+    title: "Dicoding: Beginner Git with Github",
+    technique:
+      "Version Control System, Branching, Merging, Pull Request, Gitflow",
+    firstLink: "https://www.dicoding.com/certificates/GRX5Q0Y1VZ0M",
+    secondLink: "https://www.dicoding.com",
+    firstButtonText: "CERTIFICATE OF COMPLETION",
+    secondButtonText: "DICODING WEBSITE",
+  },
 ];
 
 const blogContent = [
