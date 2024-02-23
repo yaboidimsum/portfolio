@@ -628,6 +628,16 @@ const certificateContent = [
     firstButtonText: "CERTIFICATE OF COMPLETION",
     secondButtonText: "DICODING WEBSITE",
   },
+  {
+    src: "/certificate/min/Coursera-Crash Course Python.png",
+    title: "Coursera Google Certification: Crash Course on Python",
+    technique:
+      "Version Control System, Branching, Merging, Pull Request, Gitflow",
+    firstLink: "https://coursera.org/share/9dfd3ec817e80e7fb62663055e85e620",
+    secondLink: "https://www.coursera.org",
+    firstButtonText: "CERTIFICATE OF COMPLETION",
+    secondButtonText: "COURSERA WEBSITE",
+  },
 ];
 
 const blogContent = [

@@ -51,9 +51,15 @@ const CertifCard = () => {
                         <span className="text-color-ukm_expo">Ruangguru Engineering Academy</span>
                         {category.title.replace("Ruangguru Engineering Academy", "")}
                       </>
+                    ) : category.title.includes("Coursera Google Certification") ? (
+                      <>
+                        <span className="text-color-blue">Coursera Google Certification</span>
+                        {category.title.replace("Coursera Google Certification", "")}
+                      </>
                     ) : (
                       category.title
-                    )}
+                    ) 
+                    }
                   </h2>
                   <h2 className="max-w-lg text-color-slate">
                     {category.technique}
