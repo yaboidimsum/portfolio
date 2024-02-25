@@ -640,10 +640,11 @@ const certificateContent = [
   },
   {
     src: "/certificate/min/Coursera-Crash Course Python.png",
-    title: "Coursera Google Certification: Using Python to Interact with the Operating System ",
+    title:
+      "Coursera Google Certification: Using Python to Interact with the Operating System ",
     technique:
       "Python, Operating System, File System, Command Line Interface, Python Scripting, Bash Scripting, Unit Testing, Regular Expression, Python Library",
-    firstLink: "https://coursera.org/share/9dfd3ec817e80e7fb62663055e85e620",
+    firstLink: "https://coursera.org/share/e6b74e07edaac0f67e0846beb83cc82c",
     secondLink: "https://www.coursera.org",
     firstButtonText: "CERTIFICATE OF COMPLETION",
     secondButtonText: "COURSERA WEBSITE",
